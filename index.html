@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b20c073167.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/finallogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myservices">Services</a></li>
+                    <li><a href="#mywork">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full stack web developer</p>
+                <h1>Hi, I'm <span>Akshat</span> <br>from Mait</h1>
+            </div>
+        </div>     
+    </div>
+<!----------------about section------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/noida3 (2).jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p> 🐱‍🏍 Currently in my Final year of B.Tech in Computer Science.<br> <br>
+                        🌇 Delhi Native, with a passion for creating and developing software that addresses real-world problems.<br><br>
+                        🌱 I’m currently learning system design.<br><br>
+                        👯 I’m looking to collaborate on mern stack based projects.<br><br>
+                        📫 How to reach me: akshatarora411@gmail.com.<br><br>
+                        ⚡ Fun fact: 🎸 I craft web applications by day and melodies by night – I'm not just a coding enthusiast, but also a passionate guitarist! 🎶
+                        <br><br>
+                       <div class="sub-tabs">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C/C++, JavaScript, HTML, CSS</li>
+                            <li><span>Frameworks & Tools</span><br>Bootstrap, Reactjs, Nodejs, Expressjs, Mysql, Postgresql, Postman, MongoDB</li>
+                            <li><span>Miscellaneous</span><br>Git, Github, vercel</li>
+                            <li><span>Others</span><br>DBMS, OOPs, CN, Data structures & Algorithms</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>GGSoc</span><br>Mentored 100+ students during GirlScript Summer of code '23</li>
+                            <li><span>LeetCode</span><br>Have 1550+ rating on LeetCode</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech (CSE)</span><br>Maharaja Agrasen Institute Of Technology, GGSIPU</li>
+                            <li><span>Class XII</span><br>Tiny Tots School, Rajasthan</li>
+                            <li><span>Class X</span><br>Tiny Tots School, Rajasthan</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------services---------------->
+
+<div id="myservices">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code fa-beat fa-sm"></i>
+                <h2>Web Development</h2>
+                <p>As a final-year Computer Science student in Delhi, I specialize in full-stack development, crafting responsive websites & dynamic web applications with creativity and expertise.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-tools fa-beat fa-sm"></i>
+                <h2>Technical Skills</h2>
+                <p>I'm proficient in C++, JavaScript & SQL, with additional experience in frameworks like React.js & Express.js, with a passion for learning & a knack for problem-solving.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-regular fa-lightbulb fa-beat fa-sm"></i>
+                <h2>Project Ideas</h2>
+                <p>Exploring new ideas & implementing innovative solutions is my forte. From conceptualizing projects or collaborating on exciting ventures,  I'm passionate about making a difference through technology.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code fa-beat fa-sm"></i>
+                <h2>Academic Achievements</h2>
+                <p>Academic excellence is my focus, with expertise in subjects like DSA, Networks, DBMS, and OS. Throughout my studies, my commitment and achievements have consistently garnered recognition.</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------my work------------------------------------>
+
+<div id="mywork">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/online-travel-booking-service-app-vector-27383867.jpg">
+                <div class="layer">
+                    <h3>AwayE</h3>
+                    <p>Developed a Reactjs based travel advisory web app, integrating Google map API for interactive maps and Travel advisor
+                        API for up-to-date destination information and recommendations. Features a user-friendly interface with a filtering system for easy restaurant and hotel selection based on ratings.</p>
+                    <a href="https://awaye.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gamehaiyr.jpg">
+                <div class="layer">
+                    <h3>Book Notes</h3>
+                    <p> Crafted a book notes website leveraging Node.js, Express.js, Axios, and PostgreSQL, with HTML, CSS, and EJS templating for frontend presentation. Integrates Open Library API for covers and allows users to add notes, ratings, and reading dates. Features sorting by rating and recency, bolstered by robust error handling.</p>
+                    <a href="https://github.com/akshat2502/BookNotes"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/envelope-in-pdf-file-email-pdf-document-flat-royalty-free-illustration-1581700117.jpg?crop=1xw:1xh;center,top&resize=640:*">
+                <div class="layer">
+                    <h3>Pdf Fusion Plus</h3>
+                    <p>Developed a web application with Node.js, Express.js, and Bootstrap, enabling seamless merging of PDF files. Leveraged the multer library for efficient file uploads, facilitating easy handling of multiple PDF files. Implemented the PdfMerger library to merge uploaded PDFs, providing users with a downloadable link for the merged document.</p>
+                    <a href="https://github.com/akshat2502/pdf-fusion-plus"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/akshat2502" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------contact info---------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>akshatarora411@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9540913274</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <a href="/images/CV akshat Mait CSE.pdf" download class="btn btn2">Download CV</a>
+                <img src="images/newone.jpg" width="50%" height="30%">
+            </div>
+            <div class="contact-right">
+                <h2 class="btn">Want To Ask Something? Go Ahead!</h2>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Akshat Arora. All right reserved 👀</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+<script>
+
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu() {
+        sidemeu.style.right= "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+    
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxg_akBOKDIVwqtkDzbXR7Zg2LWzJldqFkNpWDWptTCrt8G3X81nBtCF6_S9iMmOPmM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(() => {
+                msg.innerHTML="";
+            }, 4000);
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
+
